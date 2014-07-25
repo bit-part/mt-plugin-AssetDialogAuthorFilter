@@ -1,0 +1,16 @@
+# AssetDialogAuthorFilter
+#
+# Release 1.0.0 (2014-07-25)
+#
+# Copyright (c) bit part LLC - http://bit-part.net/
+name: AssetDialogAuthorFilter
+id: AssetDialogAuthorFilter
+version: 1.0.0
+author_name: '<__trans phrase="bit part LLC">'
+author_link: http://bit-part.net/
+description: '<__trans phrase="Filter by a login user at a dialog of assets in edit entry.">'
+plugin_link: https://github.com/bit-part/mt-plugin-AssetDialogAuthorFilter
+doc_link: https://github.com/bit-part/mt-plugin-AssetDialogAuthorFilter/README.md
+l10n_class: AssetDialogAuthorFilter::L10N
+callbacks:
+    MT::App::CMS::template_param.asset_list: $AssetDialogAuthorFilter::AssetDialogAuthorFilter::Callbacks::_param_asset_list

@@ -22,7 +22,7 @@ MT->add_plugin($plugin);
 sub init {
     my $core = MT->component('core');
     my $registry = $core->registry('applications', 'cms', 'methods');
-    $registry->{dialog_list_asset} = '$AssetDialogAuthorFilter::AssetDialogAuthorFilter::Plugin::_dialog_list_asset',;
+    $registry->{dialog_list_asset} = '$AssetDialogAuthorFilter::AssetDialogAuthorFilter::Plugin::_dialog_list_asset';
 }
 
 1;

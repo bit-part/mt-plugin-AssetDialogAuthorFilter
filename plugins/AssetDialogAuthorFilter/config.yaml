@@ -1,0 +1,13 @@
+# AssetDialogAuthorFilter
+# Copyright (c) bit part LLC - http://bit-part.net/
+name: AssetDialogAuthorFilter
+id: AssetDialogAuthorFilter
+version: 1.2.0
+author_name: '<__trans phrase="bit part LLC">'
+author_link: http://bit-part.net/
+description: '<__trans phrase="Listing assets uploaded by login user on a dialog in entry edit dashboard.">'
+plugin_link: https://github.com/bit-part/mt-plugin-AssetDialogAuthorFilter
+doc_link: https://github.com/bit-part/mt-plugin-AssetDialogAuthorFilter/blob/master/README.md
+l10n_class: AssetDialogAuthorFilter::L10N
+callbacks:
+    app_pre_listing_dialog_list_asset: $AssetDialogAuthorFilter::AssetDialogAuthorFilter::Plugin::_dialog_list_asset

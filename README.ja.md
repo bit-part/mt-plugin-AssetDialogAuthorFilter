@@ -9,7 +9,7 @@ AssetDialogAuthorFilter - Movable Type プラグイン
 
 ## 動作条件
 
-* Movable Type 6.0 以上
+* Movable Type 6
 
 ## インストール方法
 

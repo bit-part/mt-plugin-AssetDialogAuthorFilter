@@ -5,11 +5,11 @@ AssetDialogAuthorFilter - Movable Type Plugin
 
 ## Overview
 
-Filter by a login user at a dialog of assets in edit entry.
+Listing assets uploaded by login user on a dialog in entry edit dashboard.
 
 ## Prerequisites
 
-* Movable Type 6.0 or higher
+* Movable Type 6
 
 ## Installation
 

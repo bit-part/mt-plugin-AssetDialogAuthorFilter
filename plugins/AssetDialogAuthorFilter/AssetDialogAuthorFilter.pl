@@ -9,7 +9,7 @@ our $VERSION = '1.1.1';
 my $plugin = MT::Plugin::AssetDialogAuthorFilter->new({
     id          => 'AssetDialogAuthorFilter',
     name        => 'AssetDialogAuthorFilter',
-    description => '<__trans phrase="Filter by a login user at a dialog of assets in edit entry.">',
+    description => '<__trans phrase="Listing assets uploaded by login user on a dialog in entry edit dashboard.">',
     version     => $VERSION,
     author_name => '<__trans phrase="bit part LLC">',
     author_link => 'http://bit-part.net/',

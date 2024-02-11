@@ -10,6 +10,8 @@ Listing assets uploaded by login user on a dialog in entry edit dashboard.
 ## Prerequisites
 
 * Movable Type 6
+* Movable Type 7
+* Movable Type 8
 
 ## Installation
 
